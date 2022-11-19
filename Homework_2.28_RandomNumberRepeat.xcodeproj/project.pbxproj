@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		F1A7F0AD29295C7F0098279C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A7F0AC29295C7F0098279C /* AppDelegate.swift */; };
 		F1A7F0AF29295C7F0098279C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A7F0AE29295C7F0098279C /* SceneDelegate.swift */; };
-		F1A7F0B129295C7F0098279C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A7F0B029295C7F0098279C /* ViewController.swift */; };
+		F1A7F0B129295C7F0098279C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A7F0B029295C7F0098279C /* MainViewController.swift */; };
 		F1A7F0B429295C7F0098279C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1A7F0B229295C7F0098279C /* Main.storyboard */; };
 		F1A7F0B629295C7F0098279C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1A7F0B529295C7F0098279C /* Assets.xcassets */; };
 		F1A7F0B929295C7F0098279C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1A7F0B729295C7F0098279C /* LaunchScreen.storyboard */; };
+		F1A7F0C12929645F0098279C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A7F0C02929645F0098279C /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F1A7F0A929295C7F0098279C /* Homework_2.28_RandomNumberRepeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework_2.28_RandomNumberRepeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1A7F0AC29295C7F0098279C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1A7F0AE29295C7F0098279C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F1A7F0B029295C7F0098279C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1A7F0B029295C7F0098279C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F1A7F0B329295C7F0098279C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1A7F0B529295C7F0098279C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1A7F0B829295C7F0098279C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1A7F0BA29295C7F0098279C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1A7F0C02929645F0098279C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				F1A7F0AC29295C7F0098279C /* AppDelegate.swift */,
 				F1A7F0AE29295C7F0098279C /* SceneDelegate.swift */,
-				F1A7F0B029295C7F0098279C /* ViewController.swift */,
+				F1A7F0B029295C7F0098279C /* MainViewController.swift */,
+				F1A7F0C02929645F0098279C /* SettingsViewController.swift */,
 				F1A7F0B229295C7F0098279C /* Main.storyboard */,
 				F1A7F0B529295C7F0098279C /* Assets.xcassets */,
 				F1A7F0B729295C7F0098279C /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1A7F0B129295C7F0098279C /* ViewController.swift in Sources */,
+				F1A7F0B129295C7F0098279C /* MainViewController.swift in Sources */,
 				F1A7F0AD29295C7F0098279C /* AppDelegate.swift in Sources */,
 				F1A7F0AF29295C7F0098279C /* SceneDelegate.swift in Sources */,
+				F1A7F0C12929645F0098279C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
